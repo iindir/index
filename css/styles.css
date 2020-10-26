@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #3636ff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -10082,12 +10082,12 @@ p {
   }
 }
 ::-moz-selection {
-  background-color: cyan;  
+  background-color: #ffabab;  
   text-shadow: none;
 }
 
 ::selection {
-  background-color: cyan;  
+  background-color: #ffabab;  
   text-shadow: none;
 }
 
