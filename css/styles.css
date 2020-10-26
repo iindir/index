@@ -10077,12 +10077,10 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fe3636;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fe3636;
   text-shadow: none;
 }
 
@@ -10310,13 +10308,28 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
 }
 .portfolio-modal .close-modal {
-  position: absolute;
+  position: fixed;
   top: 1.5rem;
   right: 1.5rem;
   width: 3rem;
   height: 3rem;
   cursor: pointer;
   background-color: transparent;
+}
+@media (min-width: 992px) {
+  .portfolio-modal .close-modal {
+  right: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio-modal .close-modal {
+  right: 19%;
+  }
+}
+@media (min-width: 1600px) {
+  .portfolio-modal .close-modal {
+  right: 18%;
+  }
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
