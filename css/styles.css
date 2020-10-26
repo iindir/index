@@ -5517,8 +5517,7 @@ a.close.disabled {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 70%;
-  margin:auto 15%;
+  width: 100%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -5612,7 +5611,6 @@ a.close.disabled {
     height: -moz-min-content;
     height: min-content;
   }
-
   .modal-sm {
     max-width: 300px;
   }
@@ -5621,6 +5619,10 @@ a.close.disabled {
   .modal-lg,
 .modal-xl {
     max-width: 800px;
+  }
+  .modal-content{
+    margin:auto 15%;
+	width:70%;
   }
 }
 @media (min-width: 1200px) {
