@@ -10077,10 +10077,12 @@ p {
   }
 }
 ::-moz-selection {
+  background-color: cyan;  
   text-shadow: none;
 }
 
 ::selection {
+  background-color: cyan;  
   text-shadow: none;
 }
 
